@@ -49,7 +49,7 @@ cargo install cargo-panic-audit
 Or build from source:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cargo-panic-audit
+git clone https://github.com/vasusrini/cargo-panic-audit
 cd cargo-panic-audit
 cargo build --release
 ```
