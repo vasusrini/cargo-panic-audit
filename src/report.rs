@@ -11,14 +11,13 @@ pub fn print_banner() {
         "{}{}{}",
         "║  ".bright_black(),
         "cargo-panic-audit v0.5.1".bold().cyan(),
-        "                                                    ║".bright_black()
+        "                                                     ║".bright_black()
     );
-
     println!(
         "{}{}{}",
         "║  ".bright_black(),
-        "Find panic patterns that can take down production Rust services       ".italic(),
-        "║".bright_black()
+        "Find panic patterns that can take down production Rust services".italic(),
+        "              ║".bright_black()
     );
     println!("{}", "║                                                                               ║".bright_black());
     println!("{}", "╚═══════════════════════════════════════════════════════════════════════════════╝".bright_black());
