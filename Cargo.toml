@@ -1,0 +1,27 @@
+[package]
+name = "cargo-panic-audit"
+version = "0.5.0"
+edition = "2021"
+authors = ["Your Name <your@email.com>"]
+description = "Find panic patterns that can take down production Rust services"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/cargo-panic-audit"
+keywords = ["panic", "unwrap", "audit", "reliability", "production"]
+categories = ["development-tools"]
+
+[[bin]]
+name = "cargo-panic-audit"
+path = "src/main.rs"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+tar = "0.4"
+flate2 = "1.0"
+syn = { version = "2.0", features = ["full", "visit", "extra-traits"] }
+quote = "1.0"
+walkdir = "2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+colored = "2.0"
+clap = { version = "4.0", features = ["derive"] }
