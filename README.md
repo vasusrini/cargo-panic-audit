@@ -349,7 +349,7 @@ cargo-panic-audit/
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                               ║
-║  cargo-panic-audit v1.0.0                                                     ║
+║  cargo-panic-audit v0.5.0                                                     ║
 ║  Find panic patterns that can take down production Rust services              ║
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
