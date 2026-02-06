@@ -2,10 +2,10 @@
 name = "cargo-panic-audit"
 version = "0.5.0"
 edition = "2021"
-authors = ["Your Name <your@email.com>"]
+authors = ["Vasu Srinivasan <vasusrini@gmail.com>"]
 description = "Find panic patterns that can take down production Rust services"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/cargo-panic-audit"
+repository = "https://github.com/vasusrini/cargo-panic-audit"
 keywords = ["panic", "unwrap", "audit", "reliability", "production"]
 categories = ["development-tools"]
 
