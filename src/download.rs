@@ -11,7 +11,7 @@ pub fn get_latest_version(crate_name: &str) -> Result<String> {
     let client = reqwest::blocking::Client::new();
     let response: serde_json::Value = client
         .get(&url)
-        .header("User-Agent", "cargo-panic-audit/1.0.0")
+        .header("User-Agent", "cargo-panic-audit/0.5.0")
         .send()?
         .json()?;
 
@@ -35,7 +35,7 @@ pub fn download_crate(name: &str, version: &str) -> Result<PathBuf> {
 
     let response = client
         .get(&url)
-        .header("User-Agent", "cargo-panic-audit/1.0.0")
+        .header("User-Agent", "cargo-panic-audit/0.5.0")
         .send()
         .context("Failed to download crate")?;
 
