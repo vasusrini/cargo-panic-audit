@@ -64,4 +64,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[0.5.0]: https://github.com/YOUR_USERNAME/cargo-panic-audit/releases/tag/v0.5.0
+[0.5.0]: https://github.com/vasusrini/cargo-panic-audit/releases/tag/v0.5.0
