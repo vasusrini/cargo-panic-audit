@@ -1,6 +1,6 @@
 use clap::Parser;
 
-const VERSION: &str = "0.5.0";
+const VERSION: &str = "0.5.2";
 const TAGLINE: &str = "Find panic patterns that can take down production Rust services";
 
 #[derive(Parser, Debug)]
