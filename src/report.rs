@@ -10,7 +10,7 @@ pub fn print_banner() {
     println!(
         "{}{}{}",
         "║  ".bright_black(),
-        "cargo-panic-audit v1.0.0".bold().cyan(),
+        "cargo-panic-audit v0.5.0".bold().cyan(),
         "                                                    ║".bright_black()
     );
     println!(
